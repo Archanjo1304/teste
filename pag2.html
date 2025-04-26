@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nosso 1 Ano 💖</title>
+  <link rel="stylesheet" href="style2.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="hearts"></div>
+
+  <div class="texto1">
+    <h1>
+      Tudo começou em um dia aleatório em que o cara mais gato da face da terra VULGO EU, perguntou se podia sentar com a senhorita... e a partir desse dia nossa jornada começou 💘
+    </h1>
+  </div>
+
+  <div class="carousel-container">
+    <div class="carousel-images">
+      <img src="fotos/foto1.jpg" alt="Imagem 1" />
+      <img src="fotos/foto2.jpg" alt="Imagem 2" />
+      <img src="fotos/foto3.jpg" alt="Imagem 3" />
+      <img src="fotos/foto4.jpg" alt="Imagem 4" />
+      <img src="fotos/foto5.jpg" alt="Imagem 5" />
+      <img src="fotos/foto6.jpg" alt="Imagem 6" />
+      <img src="fotos/foto7.jpg" alt="Imagem 7" />
+    </div>
+    <button id="Anterior"> &lt; </button>
+    <button id="Próximo"> &gt; </button>
+  </div>
+
+  <section class="timeline">
+    <h2>Nossa História 💑</h2>
+    <ul>
+      <li><strong>🌟 Primeiro encontro:</strong> Nosso primeiro encontro foi na minha casa... Não sei se consideramos como primeiro encontro kkkkk, mas tudo certo</li>
+      <li><strong>🎬 Nosso filme favorito:</strong>Olha kkkk tecnicamente não temos um filme favorito mas "Bastardos Inglórios" esta marcado na nossa vida KKKK, nunca terminamos de assistir esse filme</li>
+      <li><strong>🛫 Primeira viagem:</strong> Nossa primeira viagem foi para Itapoá... (deviamos ter tirado muito mais fotos)</li>
+    </ul>
+
+    <div class="video-carousel-container">
+      <div class="video-carousel">
+        <video controls muted autoplay loop>
+          <source src="fotos/Lore costas praia.mp4" type="video/mp4">
+        </video>
+        <video controls muted autoplay loop>
+          <source src="fotos/praia1.mp4" type="video/mp4">
+        </video>
+        <video controls muted autoplay loop>
+          <source src="fotos/praia2.mp4" type="video/mp4">
+        </video>
+        <video controls muted autoplay loop>
+          <source src="fotos/praia3.mp4" type="video/mp4">
+        </video>
+      </div>
+      <button id="video-anterior">⟨</button>
+      <button id="video-proximo">⟩</button>
+      <h3 class="textopos">Vc pode nao gostar muito desses videos, MMMMMAAAAASSS eu gosto, sao lembranças da nossa primeira viagem</h3>
+    </div>
+
+  </section>
+
+  <div class="mensagem-surpresa">
+    <button onclick="mostrarMensagem()">Clique aqui 💌</button>
+    <p id="mensagem" style="display: none;">
+      Você é o meu amor, meu porto seguro e minha maior sorte. Te amo demais para todo o sempre minha gatinha! 💖
+    </p>
+  </div>
+
+  <br>
+  
+  <p class="sair">Você deusa da minha vida aceita sair cmg?</p>
+
+  <div class="button-container">
+    <button class="circle-button heart">
+      <i class="icon">❤️</i>
+    </button>
+    <button class="circle-button close" onclick="mostrarPopup()">
+      <i class="icon">✖️</i>
+    </button>
+  </div>
+
+  <div id="popup" style="display: none;" class="popup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="fecharPopup()">X</span>
+      <p class="poptext">Ah, você não tem essa opção KKKKK, o lugar ja esta reservado AKAKAK, então vc trate de aceitar 💕</p>
+    </div>
+  </div>
+
+  <audio controls autoplay loop>
+    <source src="music.mp3" type="audio/mp3" />
+  </audio>
+
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="voltar-topo">⬆ Voltar ao topo</button>
+
+  <script src="scriptv.js"></script>
+</body>
+</html>
